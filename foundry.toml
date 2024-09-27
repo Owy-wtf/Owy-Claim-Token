@@ -1,0 +1,11 @@
+[profile.default]
+auto_detect_solc = false
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc = '0.8.27'
+optimizer = true
+optimizer_runs = 10_000
+gas_reports = ['*']
+evm_version ='cancun'
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
